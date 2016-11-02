@@ -1,4 +1,6 @@
-Personal website, made October 2016
+Revision 2. Add home link on banner
+
+Revision 1. Personal website, made October 2016
 
 Created in HTML5, CSS3 using Atom editor.
 
