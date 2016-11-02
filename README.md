@@ -1,3 +1,5 @@
+Revision 2.3 Content update, index page
+
 Revision 2.2 Remove e-mail links just in case
 
 Revision 2.1 Added additional links on images, fix link hover on heading elements
