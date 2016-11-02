@@ -100,10 +100,9 @@ header{
 	padding: 50px 20px 20px 20px;
 }
 .nameplate h1{
-  color: #76A6D4;
+	color: #76A6D4;
 }
 /*aside*/
-
 .sidebar-nav ul{
 	margin: 0 auto;
 }
@@ -164,9 +163,15 @@ a{
 	color: #6885A0;
 	text-decoration: none;
 }
-a:hover{
+a:hover,
+a:hover > h3,
+a:hover > h1{
 	color: #F6D19A;
 	text-decoration: none;
+}
+
+a .logo-img:hover{
+	border: 2px solid #F6D19A;
 }
 /*home*/
 .page-title h2{
@@ -180,9 +185,13 @@ a:hover{
   color: #6885A0;
 }
 .article-heading{
-  color: #76A6D4;
+	color: #76A6D4;
 }
-
+/*
+article h3{
+	color: #fff;
+}
+*/
 /*about-me*/
 .main-page li,
 .main-page dd{

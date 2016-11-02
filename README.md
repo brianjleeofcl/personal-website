@@ -1,3 +1,5 @@
+Revision 2.1 Added additional links on images, fix link hover on heading elements
+
 Revision 2. Add home link on banner
 
 Revision 1. Personal website, made October 2016
