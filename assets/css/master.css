@@ -1,0 +1,233 @@
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*default style*/
+body{
+  background: #1D262E;
+  font: 300 16px/24px "Roboto",Helvetica,arial,sans-serif;
+  color: #6885A0;
+}
+/*layout info*/
+/*grid*/
+*,*::after,*::before{
+	-webkit-box-sizing: border-box;
+		 -moz-box-sizing: border-box;
+					box-sizing: border-box;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.left-sidebar{
+	float: left;
+	width: 250px;
+}
+.main-page{
+	width: 710px;
+	float: right;
+}
+.full-width{
+  width: 700px;
+  margin: 0 5px 30px 5px;
+
+}
+.half-width{
+  width: 345px;
+  float: left;
+  margin: 0 5px 10px 5px;
+  clear: left;
+}
+.half-width-right{
+  float: right;
+  clear: right;
+}
+/*header*/
+header{
+	height: 250px;
+}
+.logo-img{
+  float: left;
+	border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: 50px;
+}
+.nameplate{
+	float: right;
+	width: 710px;
+	padding: 50px 20px 20px 20px;
+}
+.nameplate h1{
+  color: #76A6D4;
+}
+/*aside*/
+
+.sidebar-nav ul{
+	margin: 0 auto;
+}
+.sidebar-nav a{
+	display: block;
+	width: 220px;
+	height: 55px;
+	margin: 0 15px;
+  text-transform: capitalize;
+	background: linear-gradient(to Right,#3C5064,#090C10);
+  text-align: center;
+  font: 400 30px/45px "Roboto Slab",helvetica,arial,sans-serif;
+}
+.sidebar-nav a:hover{
+  background: linear-gradient(to Right, #9A7F58,#18140C);
+}
+.sidebar-nav li:first-child a{
+	border-radius: 15px 15px 0 0;
+}
+.sidebar-nav li:last-child a{
+	border-radius: 0 0 15px 15px;
+}
+/*footer*/
+.primary-footer{
+	clear: both;
+	text-align: right;
+}
+/*typhography*/
+h1{
+	font: 400 72px/96px "Roboto Slab",helvetica,arial,sans-serif;
+}
+h2{
+  font: 700 48px/64px "Roboto",helvetica,arial,sans-serif;
+}
+h3{
+  font: 400 32px/48px "Roboto Slab",helvetica,arial,sans-serif;
+}
+h4{
+  font: 400 28px/42px "Roboto Slab",helvetica,arial,sans-serif;
+}
+h5{
+  font: 500 24px/36px "Roboto",helvetica,arial,sans-serif;
+}
+p{
+  font: 300 16px/24px "Roboto",helvetica,arial,sans-serif;
+}
+strong{
+  font-weight: bolder;
+}
+strong:hover{
+  color: #bca27c;
+}
+small{
+  font: 300 12px/18px "Roboto",helvetica,arial,sans-serif;
+}
+/*links*/
+a{
+	color: #6885A0;
+	text-decoration: none;
+}
+a:hover{
+	color: #F6D19A;
+	text-decoration: none;
+}
+/*home*/
+.page-title h2{
+  text-align: center;
+	border-bottom: 2px solid ;
+}
+.main-page article{
+  border-radius: 10px;
+	background: #090C10;
+  padding: 5px 20px 10px 20px;
+  color: #6885A0;
+}
+.article-heading{
+  color: #76A6D4;
+}
+
+/*about-me*/
+.main-page li,
+.main-page dd{
+  background: url("pin.svg") 0 50% no-repeat;
+  background-size: 16px;
+  list-style-type: none;
+  padding-left: 20px;
+}
+.main-page dt{
+  background: url("hash.svg") 0 50% no-repeat;
+  background-size: 20px;
+  list-style-type: none;
+  font: 500 20px/30px "Roboto",helvetica,Arial,sans-serif;
+  padding-left: 25px;
+}
+.list-heading{
+  background: url("list.svg") 0 50% no-repeat;
+  padding-left: 45px;
+}
+.half-width figure {
+  margin: 5px 0 0 0;
+  padding: 5px;
+}
+.half-width figure img{
+  width: 293px;
+  height: auto;
+}
+.about-me .full-width{
+  margin-bottom: 10px;
+}
+/*aspirations*/
+figure{
+  border: 1px solid #76A6D4;
+  padding: 10px;
+  margin: 10px 0;
+}
+figure img{
+  width: 636px;
+  height: auto;
+}
+figcaption{
+  text-align: center;
+  font: 300 12px/18px "Roboto",helvetica,arial,sans-serif;
+  font-style: italic;
+}
+.sub-heading{
+  margin-top: 15px;
+}
