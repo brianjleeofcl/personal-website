@@ -187,11 +187,19 @@ a .logo-img:hover{
 .article-heading{
 	color: #76A6D4;
 }
-/*
-article h3{
-	color: #fff;
+.slideshow {
+	height: 480px;
 }
-*/
+.slideshow img{
+	width: 660px;
+	height: auto;
+	margin: 15px 0 10px 0;
+	position: absolute;
+	z-index: 1;
+}
+.slideshow .active{
+	z-index: 2;
+}
 /*about-me*/
 .main-page li,
 .main-page dd{

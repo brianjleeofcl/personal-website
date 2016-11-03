@@ -1,3 +1,5 @@
+Revision 3. Add slideshow on index page
+
 Revision 2.3 Content update, index page
 
 Revision 2.2 Remove e-mail links just in case
