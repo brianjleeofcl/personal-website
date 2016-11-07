@@ -203,20 +203,20 @@ a .logo-img:hover{
 /*about-me*/
 .main-page li,
 .main-page dd{
-  background: url("pin.svg") 0 50% no-repeat;
+  background: url("../images/icons/pin.svg") 0 50% no-repeat;
   background-size: 16px;
   list-style-type: none;
   padding-left: 20px;
 }
 .main-page dt{
-  background: url("hash.svg") 0 50% no-repeat;
+  background: url("../images/icons/hash.svg") 0 50% no-repeat;
   background-size: 20px;
   list-style-type: none;
   font: 500 20px/30px "Roboto",helvetica,Arial,sans-serif;
   padding-left: 25px;
 }
 .list-heading{
-  background: url("list.svg") 0 50% no-repeat;
+  background: url("../images/icons/list.svg") 0 50% no-repeat;
   padding-left: 45px;
 }
 .half-width figure {
