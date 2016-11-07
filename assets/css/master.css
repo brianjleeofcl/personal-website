@@ -67,6 +67,11 @@ body{
 .main-page{
 	width: 710px;
 	float: right;
+	display: inline-flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
 }
 .full-width{
   width: 700px;
@@ -75,13 +80,7 @@ body{
 }
 .half-width{
   width: 345px;
-  float: left;
-  margin: 0 5px 10px 5px;
-  clear: left;
-}
-.half-width-right{
-  float: right;
-  clear: right;
+  margin: auto;
 }
 /*header*/
 header{
