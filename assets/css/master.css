@@ -67,11 +67,6 @@ body{
 .main-page{
 	width: 710px;
 	float: right;
-	display: inline-flex;
-	flex-flow: row wrap;
-	justify-content: flex-start;
-	align-items: flex-start;
-	align-content: flex-start;
 }
 .full-width{
   width: 700px;
@@ -81,6 +76,10 @@ body{
 .half-width{
   width: 345px;
   margin: auto;
+	float: left;
+}
+.half-width-right{
+	float: right;
 }
 /*header*/
 header{
@@ -200,6 +199,13 @@ a .logo-img:hover{
 	z-index: 2;
 }
 /*about-me*/
+.flexbox-half-grid{
+	height: 880px;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+}
 .main-page li,
 .main-page dd{
   background: url("pin.svg") 0 50% no-repeat;
