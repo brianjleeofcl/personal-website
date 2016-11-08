@@ -64,7 +64,7 @@ body{
 	float: left;
 	width: 250px;
 }
-.main-page{
+main{
 	width: 710px;
 	float: right;
 }
@@ -82,7 +82,7 @@ body{
 	float: right;
 }
 /*header*/
-header{
+.banner{
 	height: 250px;
 }
 .logo-img{
@@ -172,11 +172,11 @@ a .logo-img:hover{
 	border: 2px solid #F6D19A;
 }
 /*home*/
-.page-title h2{
+main header h2{
   text-align: center;
 	border-bottom: 2px solid ;
 }
-.main-page article{
+main article{
   border-radius: 10px;
 	background: #090C10;
   padding: 5px 20px 10px 20px;
@@ -206,14 +206,15 @@ a .logo-img:hover{
 	align-items: flex-start;
 	align-content: flex-start;
 }
-.main-page li,
-.main-page dd{
+main li,
+main dd{
   background: url("../images/icons/pin.svg") 0 50% no-repeat;
   background-size: 16px;
   list-style-type: none;
   padding-left: 20px;
 }
-.main-page dt{
+
+main dt{
   background: url("../images/icons/hash.svg") 0 50% no-repeat;
   background-size: 20px;
   list-style-type: none;
